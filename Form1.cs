@@ -77,5 +77,10 @@ namespace PharmacyManagementSystem
                 MessageBox.Show("Wrong UserName OR Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
